@@ -1,0 +1,7 @@
+DEPENDENCIES
+  opsworks_postgres
+    git: https://github.com/ziggythehamster/opsworks_postgres_cookbook.git
+    revision: d97192da638d723d2e6bccdbb9e7dc91bc935fd7
+
+GRAPH
+  opsworks_postgres (0.0.0)
