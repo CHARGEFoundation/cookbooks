@@ -2,6 +2,16 @@ DEPENDENCIES
   opsworks_postgres
     git: https://github.com/ziggythehamster/opsworks_postgres_cookbook.git
     revision: d97192da638d723d2e6bccdbb9e7dc91bc935fd7
+  postgresql (~> 3.4.20)
 
 GRAPH
+  apt (2.7.0)
+  build-essential (2.2.3)
+  chef-sugar (3.1.1)
+  openssl (4.0.0)
+    chef-sugar (>= 0.0.0)
   opsworks_postgres (0.0.0)
+  postgresql (3.4.20)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (~> 4.0.0)
